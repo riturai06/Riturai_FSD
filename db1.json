@@ -1,0 +1,71 @@
+{
+  "appoint": [
+    {
+      "firstname": "sharma",
+      "lastname": "Pankaj",
+      "age": 50,
+      "email": "xyz@gmail.com",
+      "phonenumber": 79098933,
+      "street": "Gandhi chowk",
+      "city": "Durg",
+      "state": "Mumbai",
+      "country": "India",
+      "pin": 254384,
+      "trainerpreference": "hello",
+      "slot": 7,
+      "packagecost": 50000,
+      "quote": 50
+    },
+    {
+      "id": 3,
+      "firstname": "Ritu",
+      "lastname": "Rai",
+      "age": 40,
+      "email": "ritu@gmail.com",
+      "phonenumber": 79098933,
+      "street": "Gandhi chowk",
+      "city": "Bhilai",
+      "state": "Mumbai",
+      "country": "India",
+      "pin": 435656,
+      "trainerpreference": "hello",
+      "slot": 7,
+      "packagecost": 50000,
+      "quote": 50
+    },
+    {
+      "id": 5,
+      "firstname": "divya",
+      "lastname": "rai",
+      "age": 21,
+      "email": "ritu@gmail.com",
+      "phonenumber": 2556678,
+      "street": "Rajiv Chowk",
+      "city": "Bhilai",
+      "state": "UP",
+      "country": "India",
+      "pin": 32435,
+      "trainerpreference": "yes",
+      "physio": null,
+      "packagecost": 1000,
+      "quote": 50
+    },
+    {
+      "id": 6,
+      "firstname": "bala",
+      "lastname": "Rai",
+      "age": 40,
+      "email": "ritu@gmail.com",
+      "phonenumber": 79098933,
+      "street": "Gandhi chowk",
+      "city": "Bhilai",
+      "state": "Mumbai",
+      "country": "India",
+      "pin": 435656,
+      "trainerpreference": "hello",
+      "slot": 7,
+      "packagecost": 50000,
+      "quote": 50
+    }
+  ]
+}
