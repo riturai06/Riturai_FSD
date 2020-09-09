@@ -1,0 +1,36 @@
+.jumbotron{
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: #cedeff;
+}
+
+.line{
+
+    width: 545px;
+    transform: translateX(-50px);
+    padding-bottom: 20px;
+    border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+.signupdiv{
+    position: relative;
+    top: 150px;
+    left: 50px;
+}
+
+.signupbtn{
+    width: 200px;
+    height: 50px;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: auto;   
+}
+.card{
+    padding: 30px;
+}
+.card-header{
+    background-color: #5b70e4;
+    padding: 10px;
+    font-size: 30px;
+}

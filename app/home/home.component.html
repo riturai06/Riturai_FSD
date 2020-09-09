@@ -1,0 +1,25 @@
+<div class=" container" *ngIf="isLoggedIn == true">
+    <div class="introduc">
+    <h3 class="heading"> Welcome {{user.firstName}} {{user.lastName}} </h3>
+</div><br><br>
+    <div class="row-md-4">
+        <table class="table table-striped">
+            <tr>
+                <th>Pan No:</th>
+                <th class ="texts">{{user.panNo}}</th>
+            </tr>
+            <tr>
+                <th>Email Id:</th>
+                <th class ="texts">{{user.emailId}}</th>
+            </tr>
+            <tr>
+                <th>Contact No:</th>
+                <th class ="texts">{{user.contactNo}}</th>
+            </tr>
+            <tr>
+                <th>Date of Birth:</th>
+                <th class ="texts">{{user.dob|date:'shortDate'}}</th>
+            </tr>
+        </table>
+    </div>
+</div>

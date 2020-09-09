@@ -1,0 +1,57 @@
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+  <div class="container-fluid">
+      <a routerLink="/home" class="navbar-brand title"><img src="" alt="">bankHub.in</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav mr-auto">
+              <!-- <li class="nav-item active" *ngIf="isLoggedIn != true">
+                  <a routerLink="/home" class="nav-link" href="" *ngIf="isLoggedIn != true">Home</a>
+              </li> -->
+              <li class="nav-item">
+                  <a class="nav-link" href="">About</a>
+              </li>
+              <li class="nav-item">
+                <a routerLink="/home" class="nav-link" href="" >Contact Us</a>
+              </li>
+              <div class="dropdown" *ngIf="isLoggedIn == true">
+                <button class="dropbtn" *ngIf="isLoggedIn == true">Account Details</button>
+                <div class="dropdown-content">
+                  <a class="nav-link" routerLink="/accountdetails">View Account</a>
+                  <a class="nav-link" routerLink="/dashboard">Investment Details</a>
+                  <a class="nav-link" routerLink="/transactions">Transaction Details</a>
+                </div>
+              </div>
+              <!-- <li class="nav-item" *ngIf="isLoggedIn == true">
+                <a class="nav-link" routerLink="/accountdetails">Account Info</a>
+              </li>
+              <li class="nav-item" *ngIf="isLoggedIn == true">
+                <a class="nav-link" routerLink="/dashboard">Investment Info</a>
+              </li> -->
+              
+          </ul>
+          <ul class="navbar-nav ml-auto">
+              <li  class="nav-item" >
+                  <!-- <button type="button" class="btn btn-primary">Login</button> -->
+                  <a routerLink="/login" routerLinkActive="active" class="btn btn-primary loginbtn" *ngIf="isLoggedIn == false">Sign Up/Login</a>
+              </li>
+
+              <li *ngIf="isLoggedIn == true" class="nav-item">
+                <!-- <button type="button" class="btn btn-primary">Login</button> -->
+                <span>Welcome,{{username}}</span>
+              </li>&nbsp;&nbsp;&nbsp;&nbsp;
+
+              <li *ngIf="isLoggedIn == true" class="nav-item">
+                <!-- <button type="button" class="btn btn-primary">Login</button> -->
+                <a routerLink="/logout" routerLinkActive="active" class="btn btn-danger loginbtn">Logout</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+
+</nav>
+
+
+
+<router-outlet></router-outlet>

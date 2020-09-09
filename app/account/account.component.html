@@ -1,0 +1,56 @@
+<div class="container userform">
+    <div class="card">
+        <h5 class="card-header text-white">Account Registration</h5>
+        <div class="card-body">
+            <form>
+                <div class="form-row">
+                    <div class="form-group col">
+                        <label for="">Account number:</label>
+                        <input type="text" class="form-control" placeholder="Account Number" [(ngModel)]="account.accountNo"
+                            name="firstName">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col">
+                        <label for="">IFSC Code:</label>
+                        <!-- <h5>{{seller.username}}</h5> -->
+                        <input type="text" class="form-control" placeholder="Ifsc Code" [(ngModel)]="account.ifsc"
+                            name="ifsc">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="col">
+                        <label for="">Bank Name:</label>
+                        <input type="text" class="form-control" placeholder="Bank Name" [(ngModel)]="account.bankName"
+                            name="bankName">
+                    </div>
+                </div><br>
+
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label>Micr Code:</label>
+                        <input type="text" class="form-control" placeholder="Micr Code" [(ngModel)]="account.micrCode"
+                            name="micrCode">
+                    </div>
+                </div>  
+               <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label>Pan No:</label>
+                        <input type="text" class="form-control" placeholder="Pan No" [(ngModel)]="username"
+                            name="username">
+                    </div>
+                </div>               
+                <div class="text-center col-md-12 mt-3 mb-2">
+                    <button *ngIf="isLoggedIn == true" class="btn btn-success savebutton" type="button" type="button" (click)="onFormSubmit()" >Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+        
+    
+

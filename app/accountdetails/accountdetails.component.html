@@ -1,0 +1,24 @@
+<h4 class="display-10 text-center">Welcome to Banking World</h4><br><br>
+<div class="container"><div class="row">
+    <div class="col-md-12">
+        <table class="table table-striped">
+            <tr class = "acc">
+            <th>Account No</th>
+            <th>IFSC Code</th>
+            <th>Bank Name</th>
+            <th>MICR Code</th>
+            <th>Pan No</th>
+        </tr>
+        <tr *ngFor="let accounts of account">
+            <td>{{accounts.accountNo}}</td>
+            <td>{{accounts.ifsc}}</td>
+            <td>{{accounts.bankName}}</td>
+            <td>{{accounts.micrCode}}</td>
+            <td>{{username}}</td>
+        </tr>
+        </table>
+    </div>
+</div>
+<div class="col-md-10">
+    <a routerLink="/account" class="btn btn-outline-primary account-btn ">Create an Account</a>
+</div>

@@ -1,0 +1,17 @@
+.userform{
+    padding: 50px;
+}
+.card-header{
+    background-color: #5b70e4;
+    padding: 40px;
+    font-size: 30px;
+}
+.savebutton{
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 25px;
+}
+.btn{
+    background-color:#5b70e4;
+}
