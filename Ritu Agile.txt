@@ -1,0 +1,17 @@
+Agile Methodology -
+
+An agile methodology is an iterative approach to software development. In Each iteration of agile process we divide the task to be done in sprints. It includes a cross functional team.
+The main focus of agile methodology is to adapt the changing requirements. It distributes the software with faster and fewer changes.
+
+Agile methodology contain different terms -
+1. Sprint review - In this we review what user stories are on high priority and discuss about the what task we have to do in upcoming sprints.
+2. Grooming Meeting - i ) In this product owner orgainizes the requiremnet in backlog according to priority.
+                      ii) Product owner will explain the requirements to team members and we clarify the doubts we have and after all these steps we point the user stories.
+
+3. Standup calls - i) In agile methodology we have daily standup calls with our scrum master and team members, where we discuss the current progress of task, what issue we are facing and any improvements or any help we needed to complete the task. 
+                      So, that everyone in the team can know what is happening in the team what is the current progress.
+
+4. Sprint reterospective - Reterospective will be conducted at the end of the sprint to discuss about what didn't go well, what we can improve, what went well, feedback and any obstacles we are facing.
+
+Overall, Agile methodolgy is all about to deleiver the best quality product to the customer by being flexible to adapt the changing requirements, by having cross functional team which work together and where each team members are aware about what is currently going on. 
+
